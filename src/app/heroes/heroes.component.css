@@ -1,0 +1,36 @@
+.heros{
+    margin: 0 0 2em 0;
+    width: 15em;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.heros  li{
+    cursor: pointer;
+    background-color: #EEE;
+    height: 1.6em;
+    border-radius: 4px;
+    margin: .5em;
+    padding: .3em 0;
+    position: relative;
+    left: 0;
+}
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+  }
+
+  .heros .badge{
+    display: inline-block;
+    background-color: #607D8B;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    border-radius: 4px 0 0 4px;
+    font-size: small;
+    line-height: 1em;
+    height: 1.8em;
+    margin-right: .8em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+  }
